@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14665" started-at="2021-12-01T11:47:29 IST" finished-at="2021-12-01T11:47:44 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14665" started-at="2021-12-01T11:47:29 IST" finished-at="2021-12-01T11:47:44 IST">
+      <class name="Restassured.Trello_Testing">
+        <test-method status="PASS" signature="createBoard()[pri:0, instance:Restassured.Trello_Testing@1943d71]" name="createBoard" duration-ms="3851" started-at="2021-12-01T11:47:29 IST" finished-at="2021-12-01T11:47:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method status="PASS" signature="getBoard()[pri:1, instance:Restassured.Trello_Testing@1943d71]" name="getBoard" duration-ms="906" started-at="2021-12-01T11:47:33 IST" finished-at="2021-12-01T11:47:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method status="PASS" signature="deleteBoard()[pri:2, instance:Restassured.Trello_Testing@1943d71]" name="deleteBoard" duration-ms="979" started-at="2021-12-01T11:47:34 IST" finished-at="2021-12-01T11:47:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- Restassured.Trello_Testing -->
+      <class name="Restassured.E_commerce">
+        <test-method status="PASS" signature="login()[pri:1, instance:Restassured.E_commerce@173f6d9]" name="login" duration-ms="4043" started-at="2021-12-01T11:47:35 IST" finished-at="2021-12-01T11:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getusers()[pri:2, instance:Restassured.E_commerce@173f6d9]" name="getusers" duration-ms="3074" started-at="2021-12-01T11:47:39 IST" finished-at="2021-12-01T11:47:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getusers -->
+        <test-method status="PASS" signature="delete()[pri:3, instance:Restassured.E_commerce@173f6d9]" name="delete" duration-ms="1740" started-at="2021-12-01T11:47:42 IST" finished-at="2021-12-01T11:47:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- Restassured.E_commerce -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
